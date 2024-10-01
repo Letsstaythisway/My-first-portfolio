@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* nav section */
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -33,6 +33,7 @@ body {
   margin-left: 50px;
 }
 
+/* main section first */
 .main-section {
   background-color: red;
   margin: 50px;
@@ -73,10 +74,12 @@ body {
   height: auto;
 }
 
+/* experience section */
 .main-section2 {
   margin: 50px;
   border: 1px solid black;
   border-radius: 40px;
+  box-shadow: 5px 5px 10px 10px solid rgb(179, 163, 163);
 }
 
 .main-body2 {
@@ -106,7 +109,20 @@ body {
 h4 {
   color: red;
 }
+.skills {
+  display: flex;
+  justify-content: center;
+}
+.topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-hr {
-  width: 100%;
+.pictures {
+  height: 150px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
