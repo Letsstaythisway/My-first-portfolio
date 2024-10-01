@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 75px;
+  background: rgb(199, 191, 191);
+  background-size: cover;
+  justify-content: center;
+}
+
+.main,
+.about,
+.contact {
+  color: black;
+  font-size: large;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  cursor: pointer;
+  flex-grow: 0.2;
+  margin-right: 20px;
+}
+
+.logo {
+  flex-grow: 1.5;
+  margin-left: 50px;
+}
+
+.main-section {
+  background-color: red;
+  margin: 50px;
+}
+
+.main-body {
+  width: auto;
+  height: 300px;
+  padding: 40px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-areas: " left-disc  right-disc";
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+
+.right-disc {
+  grid-area: right-disc;
+  align-items: center;
+  justify-content: center;
+
+  width: auto;
+  height: 250px;
+}
+
+.left-disc {
+  height: 250px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-area: left-disc;
+}
+
+.right-disc > img {
+  width: 250px;
+  height: auto;
+}
+
+.main-section2 {
+  margin: 50px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.main-body2 {
+  padding: 15px;
+  display: grid;
+  justify-content: ;
+  align-items: center;
+  grid-template-areas: "graduation  projects  experience";
+}
+
+.graduation {
+  grid-area: graduation;
+  display: grid;
+  justify-content: start;
+}
+.projects {
+  grid-area: projects;
+  display: grid;
+  justify-content: center;
+}
+.experience {
+  grid-area: experience;
+  display: grid;
+  justify-content: end;
+}
+
+h4 {
+  color: red;
+}
+
+hr {
+  width: 100%;
+}
