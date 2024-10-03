@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 /* nav section */
 .nav {
@@ -61,14 +61,6 @@ body {
   height: 250px;
 }
 
-.left-disc {
-  height: 250px;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-area: left-disc;
-}
-
 .right-disc > img {
   width: 250px;
   height: auto;
@@ -85,7 +77,7 @@ body {
 .main-body2 {
   padding: 15px;
   display: grid;
-  justify-content: ;
+
   align-items: center;
   grid-template-areas: "graduation  projects  experience";
 }
@@ -120,9 +112,147 @@ h4 {
 }
 
 .pictures {
-  height: 150px;
   width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.projects-main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+.articles {
+  width: 100%;
+}
+
+article {
+  display: grid;
+  grid-template-areas:
+    "article1 article2"
+    "article3 article4";
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  height: auto;
+
+  box-shadow: -5px 5px 10px 5px rgba(128, 128, 128, 0.74);
+  background: gainsboro;
+  border-radius: 20px;
+
+  margin: 50px;
+  padding: 50px;
+  gap: 75px;
+}
+
+.article1 {
+  grid-area: article1;
+}
+
+.articledisc {
+  display: grid;
+  justify-items: center;
+  gap: -25px;
+}
+
+.articledisc img:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.article2 {
+  grid-area: article2;
+}
+
+.article3 {
+  grid-area: article3;
+}
+
+.article4 {
+  grid-area: article4;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+
+  margin: 25px;
+  height: 100vh;
+}
+
+.intro {
+  background-color: aliceblue;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main3 {
+  background-color: aliceblue;
+  margin: 50px;
+  border-radius: 40px;
+  padding: 50px;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+
+.main-body3 {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-areas: "i1  i2";
+  gap: 10px;
+  grid-template-columns: 2fr 3fr;
+}
+
+.left-disc3 {
+  grid-area: i2;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.right-disc3 {
+  grid-area: i1;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.connect {
+  background-color: rgb(224, 128, 128);
+  height: auto;
+  margin: 50px;
+  padding: 25px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer {
+  background-color: gray;
+  margin: 0;
+}
+
+.footer-topics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: ;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
 }
