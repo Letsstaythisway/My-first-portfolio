@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 /* nav section */
 .nav {
   display: flex;
@@ -133,10 +134,13 @@ h4 {
   width: 100%;
 }
 .articles {
-  width: 100%;
+  width: 99%;
+  display: grid;
+  justify-content: center;
 }
 
 article {
+  width: auto;
   display: grid;
   grid-template-areas:
     "article1 article2"
@@ -151,7 +155,8 @@ article {
 
   margin: 50px;
   padding: 50px;
-  gap: 75px;
+  gap: 100px;
+  grid-template-columns: ;
 }
 
 .article1 {
