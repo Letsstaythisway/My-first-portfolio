@@ -16,6 +16,8 @@ body {
 
 .main,
 .about,
+.skills2,
+.projects2,
 .contact {
   color: black;
   font-size: large;
@@ -120,10 +122,11 @@ h4 {
 }
 
 .projects-main {
-  width: 80%;
+  width: auto;
   margin: auto;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main2 {
@@ -131,7 +134,7 @@ h4 {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 100%;
+  width: auto;
 }
 .articles {
   width: 99%;
@@ -141,12 +144,10 @@ h4 {
 
 article {
   width: auto;
-  display: grid;
-  grid-template-areas:
-    "article1 article2"
-    "article3 article4";
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   height: auto;
 
   box-shadow: -5px 5px 10px 5px rgba(128, 128, 128, 0.74);
@@ -245,9 +246,10 @@ article {
   align-items: center;
   flex-wrap: wrap;
 }
-.footer {
+footer {
   background-color: gray;
   margin: 0;
+  position: relative;
 }
 
 .footer-topics {
@@ -255,9 +257,21 @@ article {
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
-  padding: ;
 }
 .copyright {
   display: flex;
   justify-content: center;
+}
+
+.navtop {
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
