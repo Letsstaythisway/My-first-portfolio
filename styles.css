@@ -3,6 +3,27 @@ body {
   padding: 0px;
 }
 
+[for="darkMode"] {
+  position: fixed;
+  top: 6rem;
+  left: 3rem;
+}
+
+[for="darkMode"]:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 0.3s;
+}
+
+#darkMode:checked + .wrapper {
+  background: black;
+  color: white;
+  border-color: white;
+}
+
+#darkMode {
+  display: none;
+}
 /* nav section */
 .nav {
   display: flex;
