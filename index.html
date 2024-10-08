@@ -11,10 +11,10 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
-    <title>Document</title>
+    <title>Subodh Portfolio</title>
   </head>
   <body>
-    
+    <input type="checkbox" id="darkMode">
 
    <div class="wrapper">
     <label for="darkMode">
@@ -22,214 +22,254 @@
         >
     </label>
 
-    
-    <!-- <div class="nav">Navigation page</div> -->
-    <section>
-      <div class="nav">
-        <div class="logo"><h2>Subodh || Software Engineer</h2></div>
-        <div class="main"><a href="#">Main</a></div>
-        <div class="about"><a href="#about">About</a></div>
-        <div class="skills2"><a href="#skills">Skills</a></div>
-        <div class="projects2"><a href="#projects">Projects</a></div>
-        <div class="contact"><a href="#contact">Contact</a></div>
+    <!-- header section -->
+    <header>
+      <div class="header container flex">
+        <div class="logo flex">
+          <div>Subodh</div>
+          <div class="line">Soft.Engineer</div>
+        </div>
+        <label for="hamburgerMenu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <input type="checkbox" id="hamburgerMenu">
+        <div class="menu">
+          <ul class="flex navigation">
+            <li> <a href="#">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
       </div>
-    </section>
+      </header>
+
+     
 
     <!-- main-body section -->
-    <section class="main-section">
-      <div class="main-body">
-        <div class="left-disc">
-          <h3>
-            Hello Family. I am Subodh Ranabhat <br />
-            My name is Khan and i am not a terrorist <br />
-            but  <h1>i am currently working my way towards software engineer<br />
-            for which i am taking classes at dentedcode academy.</h1>
-        </div>
-        <div>
-        <a href="assets/resume-page.png" download>
-          <button>
-            Download CV <i class="fa-solid fa-download"></i>
-          </button>
-        </a>
-      </div>
-        <div class="right-disc">
-          <img src="assets/image-1.png" alt="" />
-        </div>
-      </div>
-    </section>
-<br>
-<br>
-
-<!-- experience section -->
-  <section class="main-section2">
-    <div class="main-body2">
-    <div class="graduation"><i class="fa-solid fa-award"></i><h1>IT</h1> 
-      <h4>Graduation</h4>
-      
-    </div> 
-    <div class="projects"><i class="fa-solid fa-award"></i><h1> 5+ Projects</h1>
-    <h4>Completed</h4> 
-    
-  </div> 
-    <div class="experience"><i class="fa-solid fa-award"></i><h1>1+Year</h1>
-    <h4>Experience</h4></div>
-  </div>
-  </section>
-<br>
-
-<!-- skills section -->
-  <section class="skils" id="skills">
-    <div class="topic">
-      <h1> My Skills</h1>
-      </div>
-      <br>
-      <br>
-      <div class="pictures">
-      <a href="https://www.w3schools.com/html/default.asp">
-        <img src="assets/html.png" alt="html"></a>
-        
-      
-     <a href="https://www.w3schools.com/css/default.asp">
-       <img src="assets/css.png" alt="css"></a>
-      
-      <a href="https://w3schools.com/java/default.asp"  >
-      <img src="assets/java.png" alt="java"></a>
-
-      
-      <a href="https://github.com/dashboard">
-      <img src="assets/github.png" alt="github"></a>
-      </div>
-  
-  </section>
-
-  <!-- Projects -->
-
-
-<br>
-<br>
-<br>
-
-
-    <!-- article section -->
-    <section id="projects">
-      <div class="projects-main">
-        <h1> My Projects</h1>
-        </div>
-        <br>
-        <br>
-        <main class="main2">
-        <div class="articles">
-          <article>
-         <div class="article1">
-          <div class="articledisc">
-           <a href="https://letsstaythisway.github.io/login-page/"><img src="assets/login-page.png" alt="" width="500px" height="250px"> </a>
-            <p> <h2>My first Login Project <br>
-        </h2></p>
-          <i class="fa-brands fa-github"></i> <br>
+    <section class="hero-section container" id="hero">
+      <div class="grid hero">
+        <div class="left flex">
+          <div>Hello, I'm <span>Subodh Ranabhat</span></div>
+          <div class="tag"> Software Engineer</div>
+          <p>I am currently working my way towards being
+             a <h3>Software Engineer</h3> for which i am taking classes at dentedcode academy.</p>
+          <div>
+            <a href="assets/resume-page.png">
+              <button>Download CV 
+                <i class="fa-solid fa-download"></i>
+              </button>
             </a>
-            <i class="fa-regular fa-calendar"> 02/10/2024</i>
-</div>
-         </div>
-         <div class="article2">
-          <div class="articledisc">
-          <img src="assets/resume-page.png" alt="" width="500px" height="250px">
-            <p> <h2>My Second Project </h2></p>
-            <i class="fa-brands fa-github"></i> <br>
-            <i class="fa-regular fa-calendar"> 02/10/2024</i>
-         </div>
-        </div>
-         <div class="article3">
-          <div class="articledisc">
-         <img src="assets/travel-page.png
-         " alt="" width="500px" height="250px">
-            <p> <h2>My Third Project </h2></p>
-            <i class="fa-brands fa-github"></i> <br>
-            <i class="fa-regular fa-calendar"> 02/10/2024</i></div>
           </div>
-         <div class=
-         "article4">
-         <div class="articledisc">
-          <img src="assets/portfolio-page.png" alt="" width="500px" height="250px">
-            <p> <h2>My Current Project </h2></p>
-            <i class="fa-brands fa-github"></i> <br>
-            <i class="fa-regular fa-calendar"> 02/10/2024</i></div>
-         </div></div>
+          </div>
 
-</article>
-</main>
-
+         <div class="right flex">
+          <img src="assets/image-1.png"  alt="subodh">
+         </div>   
+        </div>
+        </section>
+        
 <br>
 <br>
-<section class="main3" id="about">
-  <div class="main-body3">
-    <div class="left-disc3">
-    <h1>
-        Hello Family. I am Subodh Ranabhat
-      </h1> 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis dolorem consectetur cupiditate ea veniam vitae aliquam quod perferendis sunt aperiam.  
-    <h1> From Sydney
-      Australia
-    </h1>
 
+<!-- banner section -->
+ <section class="flex banner container">
+  <div class="flex info-content">
+    <div class="flex-center icon-container">
+      <i class="fa-solid fa-award"></i>
     </div>
-    <div class="right-disc3">
-      <img src="assets/image-1.png" alt="" height="250px" width="250px"/>
-    </div>
-  </div>
-</section>
-
-<br>
-<br>
-<section class="connect">
-<h1> Connect With me</h1>
-
-  <div class="icons"> <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
-   <a href="https://www.linkedin.com/in/subodh-ranabhat-659041194/"><i class="fa-brands fa-linkedin-in" ></i> </a>
-  <a href="https://www.youtube.com/@subodhranabhat9407"><i class="fa-brands fa-square-youtube"></i> </a>
+<div>
+  <span>IT</span>
+  <p>Graduate</p>
 </div>
 
-<h1> OR</h1>
-<div class="mail-section">
-<input type="email" name="email" id="email" placeholder="youremail@email.com">
-
-<button class="btn"><i class="fa-solid fa-paper-plane"></i></button></div>
-</section>
-
-<br> 
-<br>
-<footer id="contact">
-  
-  <div class="footer-topics">
-  <div class="links">
-    <h1>Links</h1>
-    <h3><ul>
-  <a href="#"><li>Home</li></a>
-  <a href="#skills"><li>Skills</li></a>
-  <a href="#projects"><li>Projects</li></a>
-  <a href=#about><li>About</li></a>
-    </ul></h3>
+<div class="info-divider"></div>
   </div>
+  <div class="flex info-content">
+    <div class="flex-center icon-container">
+      <i class="fa-solid fa-award"></i>
+    </div>
+<div>
+  <span>4+Projects</span>
+  <p>Completed</p>
+</div>
+<div class="info-divider"></div>
+</div>
+
+<div class="flex info-content">
+  <div class="flex-center icon-container">
+    <i class="fa-solid fa-award"></i>
+  </div>
+<div>
+<span>1+Year</span>
+<p>Experience</p>
+</div>
+</div>
+ </section>
+ <br>
+ <br>
+
+ <section class="skils" id="skills">
+  <div class="topic">
+    <h1> My Skills</h1>
+    </div>
+    <br>
   
-  <div class="social-links">
-    <h1> Social Links</h1>
-    <h3> <ul>
-      <a href="https://www.linkedin.com/in/subodh-ranabhat-659041194/"><li>linkedin</li></a>
-       <a href="https://github.com/"><li>github</li></a>
-      <a href="https://www.youtube.com/@subodhranabhat9407"><li>youtube</li></a>
+    <div class="pictures">
+    <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+      <i class="fa-brands fa-html5" style="color:orange"></i>
+    <span>HTML</span></a>
       
-    </ul></h3>
-  </div>
-  </div>
-  <div class="copyright">
-   <p > @Copyright| All rights reserved 2024 | Subodh Ranabhat 
-  </p>
-</div>
-</footer>
-<a href="#">
-<div class="navtop">
-  <i class="fa-solid fa-arrow-up"></i> 
-</div>
-</a>
-</div>
+    
+   <a href="https://www.w3schools.com/css/default.asp" target="_blank">
+    <i class="fa-brands fa-css3-alt" style="color:blue"></i>
+  <span>CSS</span></a>
+    
+    <a href="https://w3schools.com/java/default.asp"  target="_blank">
+      <i class="fa-brands fa-js" style="color:rgb(186, 192, 12)"></i>
+    <span>JAVA</span></a>
+
+    
+    <a href="https://github.com/dashboard" target="_blank">
+      <i class="fa-brands fa-github" style="color:black"></i>
+      <span>GIT</span>
+    </a>
+    </div>
+
+</section>
+
+ <!-- Projects -->
+
+
+ <br>
+ <br>
+ <br>
+ 
+ 
+     <!-- article section -->
+     <section id="projects">
+       <div class="projects-main">
+         <h1> My Projects</h1>
+         </div>
+         <br>
+         <br>
+         <main class="main2">
+         <div class="articles">
+           <article>
+          <div class="article1">
+           <div class="articledisc">
+            <a href="https://letsstaythisway.github.io/login-page/"><img src="assets/login-page.png" alt="" width="500px" height="250px"> </a>
+             <p> <h2>My first Login Project <br>
+         </h2></p>
+           <i class="fa-brands fa-github"></i> <br>
+             </a>
+             <i class="fa-regular fa-calendar"> 02/10/2024</i>
+ </div>
+          </div>
+          <div class="article2">
+           <div class="articledisc">
+           <img src="assets/resume-page.png" alt="" width="500px" height="250px">
+             <p> <h2>My Second Project </h2></p>
+             <i class="fa-brands fa-github"></i> <br>
+             <i class="fa-regular fa-calendar"> 02/10/2024</i>
+          </div>
+         </div>
+          <div class="article3">
+           <div class="articledisc">
+          <img src="assets/travel-page.png
+          " alt="" width="500px" height="250px">
+             <p> <h2>My Third Project </h2></p>
+             <i class="fa-brands fa-github"></i> <br>
+             <i class="fa-regular fa-calendar"> 02/10/2024</i></div>
+           </div>
+          <div class=
+          "article4">
+          <div class="articledisc">
+           <img src="assets/portfolio-page.png" alt="" width="500px" height="250px">
+             <p> <h2>My Current Project </h2></p>
+             <i class="fa-brands fa-github"></i> <br>
+             <i class="fa-regular fa-calendar"> 02/10/2024</i></div>
+          </div></div>
+ 
+ </article>
+ </main>
+ 
+ <br>
+ <br>
+ <section class="main3" id="about">
+   <div class="main-body3">
+     <div class="left-disc3">
+     <h1>
+         Hello Family. I am Subodh Ranabhat
+       </h1> 
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis dolorem consectetur cupiditate ea veniam vitae aliquam quod perferendis sunt aperiam.  
+     <h1> From Sydney
+       Australia
+     </h1>
+ 
+     </div>
+     <div class="right-disc3">
+       <img src="assets/image-1.png" alt="" height="250px" width="250px"/>
+     </div>
+   </div>
+ </section>
+ 
+ <br>
+ <br>
+ <section class="connect">
+ <h1> Connect With me</h1>
+ 
+   <div class="icons"> <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/subodh-ranabhat-659041194/"><i class="fa-brands fa-linkedin-in" ></i> </a>
+   <a href="https://www.youtube.com/@subodhranabhat9407"><i class="fa-brands fa-square-youtube"></i> </a>
+ </div>
+ 
+ <h1> OR</h1>
+ <div class="mail-section">
+ <input type="email" name="email" id="email" placeholder="youremail@email.com">
+ 
+ <button class="btn"><i class="fa-solid fa-paper-plane"></i></button></div>
+ </section>
+ 
+ <br> 
+ <br>
+ <footer id="contact">
+   
+   <div class="footer-topics">
+   <div class="links">
+     <h1>Links</h1>
+     <h3><ul>
+   <a href="#"><li>Home</li></a>
+   <a href="#skills"><li>Skills</li></a>
+   <a href="#projects"><li>Projects</li></a>
+   <a href=#about><li>About</li></a>
+     </ul></h3>
+   </div>
+   
+   <div class="social-links">
+     <h1> Social Links</h1>
+     <h3> <ul>
+       <a href="https://www.linkedin.com/in/subodh-ranabhat-659041194/"><li>linkedin</li></a>
+        <a href="https://github.com/"><li>github</li></a>
+       <a href="https://www.youtube.com/@subodhranabhat9407"><li>youtube</li></a>
+       
+     </ul></h3>
+   </div>
+   </div>
+   <div class="copyright">
+    <p > @Copyright| All rights reserved 2024 | Subodh Ranabhat 
+   </p>
+ </div>
+ </footer>
+ <a href="#">
+ <div class="navtop">
+   <i class="fa-solid fa-arrow-up"></i> 
+ </div>
+ </a>
+ </div>
+
   </body>
 </html>
