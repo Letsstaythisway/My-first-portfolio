@@ -409,7 +409,7 @@ footer {
 
     box-shadow: var(--shadow);
 
-    left: 80vw;
+    left: 100vw;
     transition: all 0.5s;
   }
   .menu .navigation {
